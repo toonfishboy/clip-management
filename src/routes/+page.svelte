@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Link from '../components/Link.svelte';
+</script>
+
+<div class="p-4">
+	<Link link="/login">Login</Link>
+	<Link link="/register">Register</Link>
+</div>
